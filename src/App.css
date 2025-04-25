@@ -1,0 +1,26 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Dark Mode */
+html.dark {
+  background-color: #121212; /* Karanlık arka plan */
+  color: white; /* Beyaz metin rengi */
+}
+
+html.dark .container {
+  background-color: #1e1e1e; /* Karanlık moddaki container arka planı */
+}
+
+html.dark .text-gray-700 {
+  color: #e0e0e0; /* Karanlık moddaki yazı rengi */
+}
+
+html.dark .bg-gray-200 {
+  background-color: #333333; /* Karanlık moddaki arka plan rengi */
+}
+
+html.dark .bg-white-50 {
+  background-color: #333; /* Karanlık moddaki beyaz-50 renginin değişimi */
+}
