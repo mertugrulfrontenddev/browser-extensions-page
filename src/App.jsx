@@ -167,8 +167,8 @@ function App() {
         />
       </div>
 
-      <div className="flex flex-wrap m-2 space-x-4">
-        <div className="text-2xl sm:text-xl font-bold text-gray-700 dark:text-white mr-auto">
+      <div className="flex flex-wrap  flex-col sm:flex-row mt-1 ">
+        <div className="text-2xl sm:text-xl font-bold text-gray-700 dark:text-white  mr-auto">
           Extensions List
         </div>
 
