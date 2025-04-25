@@ -167,19 +167,25 @@ function App() {
         />
       </div>
 
-      <div className="flex flex-wrap m-1">
-        <div className="text-2xl font-bold  text-gray-700 dark:text-white mr-auto">
+      <div className="flex flex-wrap m-2 space-x-4">
+        <div className="text-2xl sm:text-xl font-bold text-gray-700 dark:text-white mr-auto">
           Extensions List
         </div>
-        <FilterButton onClick={handleAll} isActive={filter === "all"}>
-          All
-        </FilterButton>
-        <FilterButton onClick={handleActive} isActive={filter === "active"}>
-          Active
-        </FilterButton>
-        <FilterButton onClick={handleInactive} isActive={filter === "inactive"}>
-          Inactive
-        </FilterButton>
+
+        <div className="flex space-x-4 flex-wrap">
+          <FilterButton onClick={handleAll} isActive={filter === "all"}>
+            All
+          </FilterButton>
+          <FilterButton onClick={handleActive} isActive={filter === "active"}>
+            Active
+          </FilterButton>
+          <FilterButton
+            onClick={handleInactive}
+            isActive={filter === "inactive"}
+          >
+            Inactive
+          </FilterButton>
+        </div>
       </div>
 
       {/* onTransitionEnd fonksiyonunu AppList'e geçiriyoruz */}
