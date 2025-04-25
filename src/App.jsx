@@ -167,8 +167,10 @@ function App() {
         />
       </div>
 
-      <div className="text-xl sm:text-2xl font-bold text-gray-700 dark:text-white  ">
-        Extensions List
+      <div className="flex  mt-1 ">
+        <div className="text-xl sm:text-2xl font-bold text-gray-700 dark:text-white  ">
+          Extensions List
+        </div>
       </div>
 
       {/* onTransitionEnd fonksiyonunu AppList'e geçiriyoruz */}
