@@ -171,21 +171,6 @@ function App() {
         <div className="text-xl sm:text-2xl font-bold text-gray-700 dark:text-white  ">
           Extensions List
         </div>
-
-        <div className="flex space-x-4 flex-wrap mt-4 sm:mt-3">
-          <FilterButton onClick={handleAll} isActive={filter === "all"}>
-            All
-          </FilterButton>
-          <FilterButton onClick={handleActive} isActive={filter === "active"}>
-            Active
-          </FilterButton>
-          <FilterButton
-            onClick={handleInactive}
-            isActive={filter === "inactive"}
-          >
-            Inactive
-          </FilterButton>
-        </div>
       </div>
 
       {/* onTransitionEnd fonksiyonunu AppList'e geçiriyoruz */}
