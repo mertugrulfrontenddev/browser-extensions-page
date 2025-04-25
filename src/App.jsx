@@ -168,9 +168,9 @@ function App() {
       </div>
 
       <div className="flex flex-wrap  flex-col sm:flex-row mt-1 ">
-        <div className="text-xl sm:text-2xl font-bold text-gray-700 dark:text-white  mr-auto">
+        <p className="text-xl sm:text-2xl font-bold text-gray-700 sm:text-gray-700 md:text-gray-700 dark:text-white mr-auto">
           Extensions List
-        </div>
+        </p>
 
         <div className="flex space-x-4 flex-wrap mt-4 sm:mt-3">
           <FilterButton onClick={handleAll} isActive={filter === "all"}>
