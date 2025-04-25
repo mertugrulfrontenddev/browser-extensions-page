@@ -167,7 +167,7 @@ function App() {
         />
       </div>
 
-      <div className="flex flex-nowrap m-1">
+      <div className="flex flex-wrap m-1">
         <span className="text-3xl font-bold text-gray-700 dark:text-white mr-auto">
           Extensions List
         </span>
